@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow: scroll;
+    background-color: black;
+}
+
+.head-container {
+    justify-content: space-between;
+    background-color: rgb(51, 44, 44);
+    height: 20vh;
+    /* border-radius: 9px; */
+    
+    display: flex;
+}
+
+.logo {
+    font-size: 53px;
+    color:aqua ;
+    height: 30px;
+
+}
+    #sp{
+    color: red;
+    }
+
+.search {
+    /* background-color: red; */
+    padding: 34px;
+    height: 30px;
+font-size: 25px;
+
+}
+
+ input{
+    font-size: 25px;
+    background-color: black;
+    border: none;
+    padding:23px;
+    border-radius: 10px;}
+    
+    #button{
+        background-color: red;
+        padding:13px;
+        
+        border-radius: 10px;
+        font-size: 35px;  
+}
+
+#button:hover{
+background-color: aqua;  
+}
+
+#Anime{
+    background-color: aqua;
+    padding:13px;
+ 
+    border-radius: 10px;
+  font-size: 35px; 
+}
+
+#Anime:hover{
+    background-color:red;
+}
+/* sec-main-head */
+ul {
+    background-color: rgb(155, 155, 169);
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    border-radius: 15px;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+margin-top: 13px;
+}
+
+ul li a {
+    color: black;
+    font-size: 25px;
+}
+
+
+ul li a:hover {
+    /* color: black; */
+color: red;
+    font-size: 25px;
+}
+.main-heading
+ {
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 44px;
+    height: 56px;
+    /* width: 333px; */
+}
+
+/*   main-section */
+
+#main-section {
+    /* background-color: red; */
+    margin-top: 44px;
+    height: 100vh;
+    padding: 33px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+    ;
+    /* justify-content: space-between; */
+
+}
+
+.card-box {
+    /* margin-top:444px ; */
+    height: 70vh;
+    width: 270px;
+    margin: 33px;
+margin-left: 33px;
+    border-radius: 11px;
+    /* padding-top: 133px; */
+    background-color: black;
+}
+.card-box:hover{
+    padding-top: 22px;
+}
+
+.img-poster {
+    height: 320px;
+    width: 270px;
+    border-radius: 11px;
+    background-color: green;
+}
+
+.img-poster img {
+    height: 320px;
+    border-radius: 11px;
+
+    width: 270px;
+}
+
+.poster-detail {
+    /* background-color: red; */
+    color: white;
+    font-size: 33px;
+
+}
+
+.name {
+    font-size: 33px;
+}
+#footer{
+ background-color: black;
+ height: 65px;
+ width: 600px;
+ position: relative;
+ top: 635px;   
+}
+.btn{
+    background-color:rgb(60, 53, 53);
+    border:none ;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 33px;
+    margin-top: 13px;
+
+    font-size: 35px;
+}
+
+
+
