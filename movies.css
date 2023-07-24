@@ -91,6 +91,7 @@ ul li a:hover {
     /* color: black; */
 color: red;
     font-size: 25px;
+    
 }
 .main-heading
  {
@@ -127,9 +128,11 @@ margin-left: 33px;
     border-radius: 11px;
     /* padding-top: 133px; */
     background-color: black;
+    transition: all ease 0.3s ;
 }
 .card-box:hover{
-    padding-top: 22px;
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .img-poster {
@@ -155,6 +158,26 @@ margin-left: 33px;
 
 .name {
     font-size: 33px;
+}
+
+.more-option-btn{
+    background-color: aquamarine;
+
+   
+}
+.more-btn{
+background-color: red;
+
+
+/* background-color:rgb(60, 53, 53); */
+border:none ;
+padding: 8px 55px;
+text-align: center;
+border-radius: 10px;
+margin-left: 33px;
+margin-top: 13px;
+
+font-size: 35px;
 }
 #footer{
  background-color: black;
