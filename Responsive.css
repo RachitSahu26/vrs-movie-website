@@ -1,0 +1,5 @@
+@media screen and (max-widht:1025px) {
+    .main-head {
+        border: 2px solid red;
+    }
+}

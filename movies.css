@@ -14,7 +14,7 @@ body {
     background-color: rgb(51, 44, 44);
     height: 20vh;
     /* border-radius: 9px; */
-    
+    border:  2px solid greenyellow;
     display: flex;
 }
 
